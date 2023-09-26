@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Order Peanut</title>
+  </head>
+  <body>
+    <header>
+      <h1>Order Your Peanut</h1>
+    </header>
+    <div class="container">
+      <p>How many packs do you want?</p>
+      <p class="place-order">
+        Quantity: <input type="number" id="quantity"/>
+        <span id="price">Price: </span>
+        <strike>N</strike>
+        <span id="amount">0</span>
+      </p>
+      <p><button type="button" onclick="placeOrder();">Place Order</button></p>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
